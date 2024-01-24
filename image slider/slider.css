@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    position:relative;
+    text-align: center;
+    color:aliceblue;
+    text-decoration: underline;
+    padding: 5px;
+}
+.container
+{
+    height:100vh;
+    width:180vh;
+    position:relative;
+    margin:2em auto;
+    border-radius: 1em;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: url(images/1s.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:background 2s ease-in-out;
+    
+}
+.btn
+{
+    background-color:lightgray;
+    width: 15px;
+    height:20px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.btn-left
+{
+    position:absolute;
+    top:46vh;
+    left:-51px;
+}
+.btn-right
+{
+    position:absolute;
+    top:46vh;
+    right:-51px;
+}

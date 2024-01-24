@@ -1,0 +1,101 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+#container h2{
+    display:flex;
+    justify-content: center;
+    
+}
+.c2
+{
+    display:flex;
+}
+h2{
+    color:#B1280A;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h2:hover{
+    cursor: pointer;
+
+}
+#container{
+    height:100vh;
+    width:450px;
+    margin:30px auto;
+    background-color:#A8AF99;
+    border-radius:10px;
+    padding:30px;
+    opacity:0.8;
+    border:1px solid black;
+}
+
+#input{
+    border-radius: 5px;
+    border: 1px solid black ;
+    margin-top:10px;
+    margin-right:20px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+    opacity:1;
+}
+
+#input:active{
+    border:none;
+}
+
+#btn{
+    margin-top:20px;
+    background-color:#C67168;
+    border-radius: 4px;
+    height: 38px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: black;
+}
+#dlt
+{
+    position:absolute;
+    top:25%;
+    background-color:#A8AF99;
+    border: none;
+    padding:10px;
+    height:30px;
+    margin: 10px;
+    
+}
+button:hover{
+    cursor:pointer;
+}
+
+#list{
+    margin-top: 15px;
+    color:black;
+    text-align:left;
+    font-weight: 200;
+    
+}
+video{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+.video-container
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+
+}
